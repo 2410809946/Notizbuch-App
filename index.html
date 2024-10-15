@@ -9,5 +9,12 @@
 </head>
 <body>
     <h1>Notizbuch App</h1>
+    <form id="note-form">
+        <input type="text" id="note-title" placeholder="Titel" required>
+        <textarea id="note-content" placeholder="Inhalt" required></textarea>
+        <button type="submit">Eintrag hinzufügen</button>
+    </form>
+    <div id="notes-container"></div>
+    <py-script src="script.py"></py-script>
 </body>
 </html>
